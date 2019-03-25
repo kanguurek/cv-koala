@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="shortcut icon" href="koala.ico">
+  <title>Curriculum Vitae</title>
+</head>
+	<body>
+		<section>
+			<div class="profile-card">
+					<h1>EDYP KOALOWSKI</h1>
+						<h2>Curriculum Vitae</h2>
+						<img class="profile-img" alt="Edypek" src="koala-svgrepo-com.svg" >
+			</div>
+		</section>
+		<div class="accordion-div">
+			<button class="accordion">PERSONAL DETAILS</button>
+				<div class="panel">
+					<img class="icon" alt="Icons" src="girl.svg">
+					<h3>Full Name</h3>
+					<h4>Edyp Koalowski</h4>
+					<img class="icon" alt="Icons" src="google-maps.svg">
+					<h3>Address</h3>
+					<h4>Edypkowo 6/10, Lovely Place</h4>
+					<img class="icon" alt="Icons" src="mobile-phone.svg">
+					<h3>Phone</h3>
+					<h4>552 000 552</h4>
+					<img class="icon" alt="Icons" src="email.svg">
+					<h3>E-mail</h3>
+					<h4>edypek@development.com</h4>
+				</div>
+			<button class="accordion">EXPERTISE</button>
+				<div class="panel">
+					<img class="icon" alt="Icons" src="hierarchy.svg">
+					<h3>Team work</h3>
+					<img class="icon" alt="Icons" src="calendar.svg">
+					<h3>Very well organization of time and work</h3>
+					<img class="icon" alt="Icons" src="earth-globe.svg">
+					<h3>Work in an international environment</h3>
+					<img class="icon" alt="Icons" src="analytics.svg">
+					<h3>Analytical thinking</h3>
+				</div>
+			<button class="accordion">INTERESTS</button>
+				<div class="panel">
+					<img class="icon" alt="Icons" src="earth.svg">
+					<h3>Environmental protection</h3>
+					<img class="icon" alt="Icons" src="book.svg">
+					<h3>Classical literature i XIX century</h3>
+					<img class="icon" alt="Icons" src="travel.svg">
+					<h3>Travels</h3>
+					<img class="icon" alt="Icons" src="athletics.svg">
+					<h3>Obstacle course racings</h3>
+				</div>
+				<div class="cv">
+				<br>
+				<img class="icon-right" alt="Icons" src="search.svg">
+				<h6>EXPERIENCE</h6>
+					<hr class="hr">
+						<table>
+				  <tr>
+				    <td>08.2018 - nadal</td>
+				    <td>Wearco (sklep internetowy ANSWEAR)</td>
+				  </tr>
+				  <tr>
+				    <td></td>
+				    <td><strong>Dział logistyki</strong></td>
+				  </tr>
+				<table>
+				  <tr>
+				    <td>09.2017</td>
+				    <td>Praktyka Studencka</td>
+				  </tr>
+				  <tr>
+				    <td></td>
+				    <td><strong>Urząd Marszałkowski Województwa Małopolskiego</strong></td>
+				  </tr>
+				  <tr>
+				    <td></td>
+				    <td>Departament Środowiska, Zespół ochrony powietrza</td>
+				  </tr>
+				</table>
+				<table>
+				  <tr>
+				    <td>10.2016 - 02.2017</td>
+				    <td>Uniwersytet Ekonomiczny w Krakowie</td>
+				  </tr>
+				    <td></td>
+				    <td><strong>Asystent dydaktyczny (asystent osoby niepełnosprawnej)</strong></td>
+				  </tr>
+				</table>
+				<table>
+				  <tr>
+				    <td>08.2016</td>
+				    <td>Praktyka studencka</td>
+				  </tr>
+				  <tr>
+				    <td></td>
+				    <td><strong>WĘGLOKOKS ENERGIA</strong></td>
+				  </tr>
+				  <tr>
+				    <td></td>
+				    <td>Dział Ochorny Środowiska</td>
+				  </tr>
+				</table>
+				<img class="icon-right" alt="Icons" src="medal.svg">
+				<h6>UMIEJĘTNOŚCI I UPRAWNIENIA</h6>
+					<hr class="hr">
+				<table class="skills">
+				  <tr>
+				    <td>Znajomość Pakietu Office</td>
+				    <td>język angielski C1</td>
+				    <td>język hiszpański A2</td>
+				    <td>prawo jazdy kategorii</td>
+				  </tr>
+				</table>
+				<br>
+				<a href="mobile.html"<button class="button" style="vertical-align:middle"><span>Back Page </span></button></a>
+				<br>
+			</div>
+				<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+				
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].addEventListener("click", function() {
+				    this.classList.toggle("active");
+				    var panel = this.nextElementSibling;
+				    if (panel.style.display === "block") {
+				      panel.style.display = "none";
+				    } else {
+				      panel.style.display = "block";
+				    }
+				  });
+				}
+				</script>
+	</body>
+</html>
